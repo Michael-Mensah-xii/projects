@@ -1,0 +1,5 @@
+fun main() = println("You flipped a ${Coin().flip()}")
+
+class Coin {
+    fun flip() = listOf("Heads", "Tails").random()
+}
